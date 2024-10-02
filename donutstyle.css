@@ -1,0 +1,117 @@
+body {
+	color: rgb(255, 255, 255);
+	background-color: rgb(11, 7, 4);
+	margin-top: 200px;
+}
+h1 {
+	font-size: 72px;
+	font-family: 'Courier New', Courier, monospace;
+	line-height: 24px;
+	text-align: center; 
+	margin-bottom: 36px;
+}
+h2 {
+	font-size: 56px;
+	word-spacing: -10px;
+	font-family: 'Courier New', Courier, monospace;
+	line-height: 54px;
+	text-align: center; 
+	margin-bottom: 36px;
+}
+#nut-quiz {
+	color: #D4A66D;
+}
+p {
+	font-family: Courier, monospace;
+	font-size: 24px;
+	text-align: center; 
+}
+div {
+	display:inline-block;
+	width: 100%;
+	text-align: center; 
+  }
+
+#donut1 {
+	display:inline-block;
+    width: 100%px;
+    background-image: url('jellyberry.gif');
+}
+#donut1:hover {
+	display:inline-block;
+	width: 100%px;
+	content:url("jellyberry.gif");
+	}
+
+#donut2:hover {
+	Position:relative;
+	Right:60ch;
+	}
+
+#donut3 {
+	display:inline-block;
+    width: 100%px;
+    background-image: url('cherryswirl.gif');
+}
+#donut3:hover {
+	display:inline-block;
+	width: 100%px;
+	content:url("cherryswirl.gif");
+	}
+
+#donut4:hover {
+	Position:relative;
+	Left:60ch; 
+}
+#donut5 {
+	display:inline-block;
+	width: 100%px;
+	content:url("creamdonut.gif");
+}
+#donut5:hover {
+	display:inline-block;
+	width: 100%px;
+	content:url("fundonut.gif");
+}
+/* Popup for donuts */
+
+.modal {
+	position: fixed;
+	margin: auto;
+	width: 60%;
+	align-items: center;
+	inset: 0;
+	display: none;
+	justify-content: center;
+}
+.content {
+	position: relative;
+	background: #D46D6F;
+	padding: 42px;
+	border-bottom: #f1ebeb;
+	}
+.content2 {
+	position: relative;
+	background: #D46DCD;
+	padding: 42px;
+	border-bottom: #f1ebeb;
+	}
+.content3 {
+	position: relative;
+	background-image: linear-gradient(#F82DFF,#38FFB3, #2542FF);
+	padding: 42px;
+	border-bottom: #f1ebeb;
+	}
+.modal:target {
+	display: flex;
+}
+#greentext {
+	background-color: #91D46D;
+}
+#bluetext {
+	background-color:#6D8CD4;
+}
+
+
+
+
