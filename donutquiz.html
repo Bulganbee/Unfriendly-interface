@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  
+    <head>
+        <title>Donut Quiz</title>
+    </head>
+  <header>
+    <h1>DO<span id="nut-quiz">nut Quiz</span></h1>
+    <script src="test.js"></script>
+    <link rel="stylesheet" href="donutstyle.css">
+    <p>Choose a donut and we will reveal your personality</p>
+  </header>
+  <body>
+ <div>
+            <a href = "#pop-up1" ><img src="berrydonut.gif" id="donut1" alt="berry" style="width:16%"></a>
+              <img src="matchadonut.gif" id="donut2" alt="matcha" style="width:16%">
+              <a href = "#pop-up2"><img src="cherrydonut.gif" id="donut3" alt="cherry" style="width:16%"></a>
+              <img src="blueberrydonut.gif" id="donut4" alt="blueberry" style="width:16%">
+              <a href = "#pop-up3" ><img src="creamdonut.gif" id="donut5" alt="cream" style="width:16%"></a>
+              <!--Pop-up1-->
+              <div id="pop-up1" class="modal">
+                <div class="content">
+                    <h2>You are a unicorn!</h2>
+                    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExODh3NzBiaXdwZTBkYjFheWxjZjljY3o5Nmt1MDd5YmgzMnJ5djdvbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xZJZDtrWh2gIo/giphy.gif" alt="matcha" style="width:16%">
+                    <p>You are the most amazing person ever, keep on shining like a unicorn princess! Click on the <span id="greentext">green donut</span> to see what our donuts say about unicorns like you.</p>
+                    <!--Below pop-up source for closing tab was taken from https://www.geeksforgeeks.org/how-to-create-popup-box-using-html-and-css/-->
+                    <a href="#" style="
+                                position: absolute;
+                                width: 50px;
+                                top: 10px;
+                                right: 10px;
+                                color: #ffffff;
+                                font-size: 30px;
+                            ">&times;</a>
+                </div>
+            </div>
+            <div id="pop-up2" class="modal">
+              <div class="content2">
+                  <h2>You are a forest fairy!</h2>
+                  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWFhcDNlMnA1Z3lkbnk3YTVpaGpqNmJocDBjbXp3Z21lM2VqazJqeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DOaJv00s6ImBDDTY8P/giphy.gif" alt="matcha" style="width:16%">
+                  <p>You are the most amazing person ever, keep on shining like a forest fairy! Click on the <span id="bluetext">blue donut</span> to see what our donuts say about fairies like you.</p>
+                  <!--Below pop-up source for closing tab was taken from https://www.geeksforgeeks.org/how-to-create-popup-box-using-html-and-css/-->
+                  <a href="#" style="
+                              position: absolute;
+                              width: 50px;
+                              top: 10px;
+                              right: 10px;
+                              color: #ffffff;
+                              font-size: 30px;
+                          ">&times;</a>
+              </div>
+          </div>
+        </div>
+        <div id="pop-up3" class="modal">
+          <div class="content3">
+              <h2>You are a Queen!</h2>
+              <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2NjN25iaTVvcWNvdHdtZHhrbGx4ZXB1ZDBrdzhkMWUweDlna3VjaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y0bHymkCLecD8uTcWg/giphy.gif" alt="matcha" style="width:40%">
+              <p>You inspire people around you and have the most amazing aura. You are so great that you won an extended personality result! <a href="#">click on the button to see your detailed personality!</a></p>
+          </div>
+      </div>
+</body>
+</html>
